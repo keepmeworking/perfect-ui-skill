@@ -1,0 +1,7 @@
+---
+description: Mandatory Perfect UI design-system workflow for all user-interface and frontend visual work
+globs: "**/*.{html,css,scss,sass,less,js,jsx,ts,tsx,vue,svelte,dart,swift,kt,kts,xml}"
+alwaysApply: false
+---
+
+For any UI/UX, frontend styling, component, layout, dashboard, responsive, accessibility, form, table, navigation, animation, theme, or visual-review task, load and follow the `perfect-ui-skill` Agent Skill. Reuse the repository's approved tokens and components first. Do not add arbitrary recurring visual values or duplicate interaction patterns. Require complete states, adaptive behavior, accessibility, performance-safe feedback, and rendered verification.
