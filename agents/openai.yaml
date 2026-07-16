@@ -1,7 +1,7 @@
 interface:
   display_name: "Perfect UI"
-  short_description: "Build and audit production-grade UI systems"
+  short_description: "Build, review, audit, and plan production-grade UI"
   brand_color: "#2563EB"
-  default_prompt: "Use perfect-ui-skill to inspect this project and implement the requested UI change through its design system, accessibility, responsive, state, performance, and verification workflow."
+  default_prompt: "Use perfect-ui-skill to inspect this project and route this request into the correct build, review, audit, planning, motion, or execution mode and follow its design-system, accessibility, responsive, state, performance, and rendered-verification workflow."
 policy:
   allow_implicit_invocation: true
