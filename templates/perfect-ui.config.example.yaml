@@ -1,0 +1,33 @@
+version: 1
+project:
+  name: ""
+  platforms: [web]
+  product_type: dashboard
+  primary_users: []
+source_of_truth:
+  brand_guidelines: ""
+  design_tokens: ""
+  component_catalog: ""
+support:
+  themes: [light]
+  locales: [en]
+  directions: [ltr]
+  input_methods: [keyboard, pointer, touch]
+  minimum_web_width_px: 320
+quality:
+  accessibility_target: WCAG_2_2_AA
+  production_score_threshold: 90
+  block_on_critical: true
+  require_rendered_verification: true
+  require_reduced_motion: true
+foundations:
+  spacing_base_px: 4
+  body_font_min_px: 14
+  touch_target_preferred_px: 44
+  semantic_tokens_required: true
+verification:
+  viewports:
+    - {name: compact, width: 360, height: 800}
+    - {name: medium, width: 768, height: 1024}
+    - {name: expanded, width: 1440, height: 900}
+  states: [loading, empty, error, success, long_content]

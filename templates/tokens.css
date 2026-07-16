@@ -1,0 +1,20 @@
+/* Neutral starter tokens. Adapt primitives to the approved brand and validate contrast. */
+:root{
+ color-scheme:light;
+ --ui-font-sans:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+ --ui-text-sm:.875rem;--ui-text-md:1rem;--ui-text-lg:1.125rem;--ui-text-xl:1.25rem;--ui-text-2xl:1.5rem;--ui-text-3xl:2rem;
+ --ui-space-1:.25rem;--ui-space-2:.5rem;--ui-space-3:.75rem;--ui-space-4:1rem;--ui-space-5:1.25rem;--ui-space-6:1.5rem;--ui-space-8:2rem;--ui-space-10:2.5rem;--ui-space-12:3rem;--ui-space-16:4rem;
+ --ui-radius-sm:.25rem;--ui-radius-md:.5rem;--ui-radius-lg:.75rem;--ui-radius-xl:1rem;--ui-radius-full:999px;
+ --ui-target-min:2.75rem;
+ --ui-duration-fast:120ms;--ui-duration-normal:180ms;--ui-duration-slow:280ms;--ui-ease-standard:cubic-bezier(.2,0,0,1);
+ --ui-bg-canvas:#f7f8fa;--ui-bg-surface:#fff;--ui-bg-subtle:#f0f2f5;--ui-bg-overlay:rgb(17 24 39 / 55%);
+ --ui-text-primary:#17191c;--ui-text-secondary:#515862;--ui-text-muted:#6f7782;--ui-text-inverse:#fff;
+ --ui-border-default:#d9dee5;--ui-border-strong:#adb5c0;--ui-border-focus:#2563eb;
+ --ui-action-primary-bg:#1d4ed8;--ui-action-primary-hover:#1e40af;--ui-action-primary-active:#1e3a8a;--ui-action-primary-text:#fff;
+ --ui-success:#067647;--ui-warning:#b54708;--ui-danger:#b42318;--ui-info:#175cd3;
+ --ui-shadow-sm:0 1px 2px rgb(16 24 40 / 8%);--ui-shadow-md:0 8px 24px rgb(16 24 40 / 12%);
+ --ui-layer-sticky:10;--ui-layer-popover:100;--ui-layer-toast:200;--ui-layer-modal:310;
+}
+[data-theme="dark"]{color-scheme:dark;--ui-bg-canvas:#0e1116;--ui-bg-surface:#151a21;--ui-bg-subtle:#1c222b;--ui-text-primary:#f3f5f7;--ui-text-secondary:#c6cbd2;--ui-text-muted:#a4abb5;--ui-border-default:#343c47;--ui-border-focus:#84adff;--ui-action-primary-bg:#528bff;--ui-action-primary-text:#081225}
+:focus-visible{outline:3px solid var(--ui-border-focus);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
